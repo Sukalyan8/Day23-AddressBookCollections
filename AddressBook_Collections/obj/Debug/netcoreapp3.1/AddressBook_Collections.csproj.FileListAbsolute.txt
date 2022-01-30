@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\AddressBook_Collections\bin\Debug\netcoreapp3.1\AddressBook_Collections.exe
+C:\Users\Hp\source\repos\AddressBook_Collections\bin\Debug\netcoreapp3.1\AddressBook_Collections.deps.json
+C:\Users\Hp\source\repos\AddressBook_Collections\bin\Debug\netcoreapp3.1\AddressBook_Collections.runtimeconfig.json
+C:\Users\Hp\source\repos\AddressBook_Collections\bin\Debug\netcoreapp3.1\AddressBook_Collections.runtimeconfig.dev.json
+C:\Users\Hp\source\repos\AddressBook_Collections\bin\Debug\netcoreapp3.1\AddressBook_Collections.dll
+C:\Users\Hp\source\repos\AddressBook_Collections\bin\Debug\netcoreapp3.1\AddressBook_Collections.pdb
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.AssemblyInfo.cs
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.dll
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.pdb
+C:\Users\Hp\source\repos\AddressBook_Collections\obj\Debug\netcoreapp3.1\AddressBook_Collections.genruntimeconfig.cache
