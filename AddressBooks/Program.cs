@@ -15,21 +15,21 @@ namespace AddressBooks
             switch (Console.ReadLine())
             {
                 case "1":
-                    AddressBook.GetCustomer();
-                    AddressBook.ListingPeople();
+                    AddressBooks.AddressBook.GetCustomer();
+                    AddressBooks.AddressBook.ListingPeople();
                     break;
                 case "2":
-                    AddressBook.GetCustomer();
-                    AddressBook.Modify();
-                    AddressBook.ListingPeople();
+                    AddressBooks.AddressBook.GetCustomer();
+                    AddressBooks.AddressBook.Modify();
+                    AddressBooks.AddressBook.ListingPeople();
                     break;
                 case "3":
-                    AddressBook.GetCustomer();
-                    AddressBook.ListingPeople();
+                    AddressBooks.AddressBook.GetCustomer();
+                    AddressBooks.AddressBook.ListingPeople();
                     break;
                 case "4":
-                    AddressBook.GetCustomer();
-                    AddressBook.RemovePeople();
+                    AddressBooks.AddressBook.GetCustomer();
+                    AddressBooks.AddressBook.RemovePeople();
 
                     break;
                 default:
@@ -37,6 +37,9 @@ namespace AddressBooks
                     break;
 
             }
+
+
+
 
 
         }
