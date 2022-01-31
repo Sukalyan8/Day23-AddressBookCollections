@@ -124,11 +124,6 @@ namespace Address_Book_Problem
             }
         }
 
-
-
-
-
-
         //print contact details
         public void PrintContact(AddressBook person)
         {
@@ -141,10 +136,8 @@ namespace Address_Book_Problem
             Console.WriteLine("ZipCode : " + person.zipCode);
             Console.WriteLine("Phone Number: " + person.phoneNum);
             Console.WriteLine("Email Id: " + person.emailId);
-            Console.WriteLine("-------------------------------------------");
+            Console.WriteLine("-----------------------##--------------------");
         }
-
-
 
 
         //Editing Contact In Address Book
@@ -152,7 +145,7 @@ namespace Address_Book_Problem
         {
             if (people.Count != 0)
             {
-                Console.WriteLine("Enter the contact to modify:");
+                Console.WriteLine("Enter the contact to modify or Edit:");
                 string Modified = Console.ReadLine();
                 foreach (var person in people)
                 {
@@ -238,6 +231,7 @@ namespace Address_Book_Problem
             //Console.ReadKey();
         }
 
+        //Using Lambda Function
         public void DeletePeople()
         {
             Console.WriteLine("Enter the first name of the person you would like to remove.");
@@ -260,7 +254,9 @@ namespace Address_Book_Problem
             }
 
         }
-        //Using Lambda Function
+
+
+        ////Using Lambda Function
         public static void StoreCityList(string key, List<AddressBook> cityList, string city)
         {
             List<AddressBook> CityList = cityList.FindAll(a => a.city.ToLower() == city);
@@ -277,6 +273,37 @@ namespace Address_Book_Problem
             {
                 Console.WriteLine("Found person \"{0}\" in Address Book \"{1}\" , residing in State {2}", i.firstName, key, i.state);
             }
+        }
+        public static void CountCityorState()
+        {
+            Console.WriteLine("Enter 1-To view City list\n Enter 2-To view State list");
+            int citystate = Convert.ToInt32(Console.ReadLine());
+            if (citystate == 1)
+            {
+                foreach (var i in City)
+                {
+                    Console.WriteLine("Display List for City: {0}\n", i.Key);
+                    foreach (var j in i.Value)
+                    {
+                        Console.WriteLine("Found person \"{0} {1}\" , residing in City {2}", j.firstName, j.lastName, j.city);
+                    }
+
+
+                }
+            }
+            else
+            {
+                foreach (var a in State)
+                {
+                    Console.WriteLine("Display List for State iN addressbook: {0}\n", a.Key);
+                    foreach (var b in a.Value)
+                    {
+                        Console.WriteLine("Found person \"{0} {1}\" , residing in State {2}", b.firstName, b.lastName, b.state);
+                    }
+
+                }
+            }
+
         }
     }
 }
